@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meteo-app/static/css/main.71624e34.chunk.css",
+    "main.js": "/meteo-app/static/js/main.60e05a33.chunk.js",
+    "main.js.map": "/meteo-app/static/js/main.60e05a33.chunk.js.map",
+    "runtime-main.js": "/meteo-app/static/js/runtime-main.53e68996.js",
+    "runtime-main.js.map": "/meteo-app/static/js/runtime-main.53e68996.js.map",
+    "static/js/2.9fa2a681.chunk.js": "/meteo-app/static/js/2.9fa2a681.chunk.js",
+    "static/js/2.9fa2a681.chunk.js.map": "/meteo-app/static/js/2.9fa2a681.chunk.js.map",
+    "index.html": "/meteo-app/index.html",
+    "precache-manifest.217b2fdb3265573308c0d352b612d7ec.js": "/meteo-app/precache-manifest.217b2fdb3265573308c0d352b612d7ec.js",
+    "service-worker.js": "/meteo-app/service-worker.js",
+    "static/css/main.71624e34.chunk.css.map": "/meteo-app/static/css/main.71624e34.chunk.css.map",
+    "static/js/2.9fa2a681.chunk.js.LICENSE.txt": "/meteo-app/static/js/2.9fa2a681.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53e68996.js",
+    "static/js/2.9fa2a681.chunk.js",
+    "static/css/main.71624e34.chunk.css",
+    "static/js/main.60e05a33.chunk.js"
+  ]
+}
