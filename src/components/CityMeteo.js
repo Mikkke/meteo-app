@@ -20,13 +20,6 @@ const CityMeteo = () => {
         `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}&units=metric&lang=fr`
       )
       .then(res => {
-        console.log("res.data :>> ", res.data);
-        console.log("res.date.main :>> ", res.data.main.temp);
-        console.log(
-          "res.data.weather.description :>> ",
-          res.data.weather[0].description
-        );
-        console.log("res.data.main.humidity :>> ", res.data.main.humidity);
         setCityTemp(res.data.main.temp);
         setCityDesc(res.data);
         setWeatherDesc(res.data.weather[0].description);
@@ -46,8 +39,6 @@ const CityMeteo = () => {
         `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${apiKey}&units=metric&lang=fr`
       )
       .then(res => {
-        console.log("res.data 2 :>> ", res.data.name);
-        console.log("res.data.main :>> ", res.data.main.temp);
         setCityTemp(res.data.main.temp);
         setCityDesc(res.data);
         setWeatherDesc(res.data.weather[0].description);
