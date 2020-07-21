@@ -1,0 +1,82 @@
+@import "./reset.scss";
+body {
+  background: #ffffff;
+  font-family: "Montserrat";
+  color: black;
+  letter-spacing: 0.1rem;
+  min-height: 100vh;
+  .main-div {
+    text-align: center;
+    text-transform: capitalize;
+    h1 {
+      padding: 2rem;
+      font-size: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      input {
+        height: 2rem;
+        width: 20rem;
+        font-size: 1.4rem;
+        outline: none;
+      }
+      button {
+        margin: 1rem;
+        width: 8rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #737f8b;
+        outline: none;
+        color: white;
+        background: rgba($color: #2c3e50, $alpha: 0.8);
+
+        transition: all 400ms;
+        &:hover {
+          transform: scale(1.25);
+          cursor: pointer;
+          background: #2c3e50;
+        }
+      }
+    }
+    h4 {
+      font-size: 1.6rem;
+      padding: 3rem;
+      @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
+    }
+    .container {
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 36rem;
+      div {
+        span {
+          padding: 0.7rem;
+          font-size: 1.5rem;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40%;
+        width: 25%;
+        p {
+          font-size: 1.5rem;
+        }
+        @media screen and (max-width: 600px) {
+          width: 44%;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+        height: 31rem;
+      }
+    }
+  }
+}
